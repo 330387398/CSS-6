@@ -1,0 +1,163 @@
+html{font-size:62.5%;}
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+header{
+	background-color: rgb(95,192,205);
+	width: 100%;
+	height: 4.5rem;
+	position: absolute;
+	top: 0;
+}
+.top-left{
+	background-color: rgb(85,168,179);
+	width: 12rem;
+	height: 2.5rem;
+	border-radius: 5px;
+	margin: 1rem auto;
+	cursor: pointer;
+	display: flex;
+	font-size: 1.5rem;
+}
+.find-left{
+	color: white;
+	padding: 0.37rem 0 0 1.1rem;
+}
+.top-right{
+	background-color: white;
+	width: 6rem;
+	height: 2.5rem;
+	border-radius: 5px;
+	margin: 0 0 0 1.1rem;
+}
+.find-right{
+	color: rgb(95,192,205);
+	padding: 0.37rem 0 0 1.1rem;
+}
+.img-map,.img1,.img2,.img3,.imghead,.imgfoot{
+	background: url(../img/img.png)no-repeat;
+}
+.img-map{
+	background-position: 0 -46px;
+	background-size: 2rem;
+	position: absolute;
+	top: 1.2rem;
+	right: 1.8rem;
+	width: 2rem;
+	height: 2rem;
+	cursor: pointer;
+}
+main{
+	position: absolute;
+	top: 4.5rem;
+	bottom: 4.5rem;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.rowhead,.rowfoot{
+	display: flex;
+	line-height: 4rem;
+	color: lightgray;
+}
+.imghead{
+	background-position: 0 -15px;
+	background-size: 2.5rem;
+	width: 1.3rem;
+	height: 1.3rem;
+	margin: 1.3rem 0 0 0;
+}
+.date,.left,.adress{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.rowbody{
+	display: flex;
+	line-height: 1rem;
+}
+.left,.center,.right{
+	font-weight: bold;
+}
+.center{
+	position: absolute;
+	right: 3rem;
+	color: red;
+}
+.right{
+	position: absolute;
+	right: 2rem;
+	color: rgb(95,192,205);
+}
+.imgfoot{
+	background-position: 0 0;
+	background-size: 2.5rem;
+	width: 1.2rem;
+	height: 1.2rem;
+	margin: 1.4rem 0 0 0;
+}
+footer{
+	background-color: whitesmoke;
+	width: 100%;
+	height: 4.5rem;
+	position: absolute;
+	bottom: 0;
+}
+.border{
+	border: 0 solid red;
+	width: 60%;
+	position: absolute;
+	left: 20%;
+	top: 1rem;
+}
+.f1{
+	float: left;
+	color: rgb(95,192,205);
+}
+.img1{
+	background-position: 0 -90px;
+	background-size: 2rem;
+	width: 2rem;
+	height: 2rem;
+	margin: -0.2rem 0 0 0.2rem;
+}
+.img1,.home,.img2,.mine{
+	cursor: pointer;
+}
+.f2{
+	float: right;
+	color: gray;
+}
+.img2{
+	background-position: 0 -69px;
+	background-size: 2rem;
+	width: 2rem;
+	height: 1.7rem;
+	margin: -0.1rem 0 0 0.2rem;
+}
+.mine{
+	padding: 0.2rem 0 0 0;
+}
+.f3{
+	background-color: rgb(95,192,205);
+	width: 4.5rem;
+	height: 4.5rem;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
+}
+.img3{
+	background-position: 0 -31px;
+	background-size: 2.5rem;
+	width: 3rem;
+	height: 2.15rem;
+	position: absolute;
+	top: 1.1rem;
+	left: 1.25rem;
+	cursor: pointer;
+}
+
